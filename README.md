@@ -1,5 +1,7 @@
 This code was used for the entry by the team "antfugue" for the Weather4cast 2021 Challenge. Below, you can find the instructions for generating predictions, evaluating pre-trained models and training new models.
 
+For the code used in the IEEE Big Data Cup competition, see https://github.com/jleinonen/weather4cast-bigdata.
+
 ## Installation
 
 To use the code, you need to:
