@@ -26,7 +26,7 @@ Generating the predictions should be possible in a reasonable time also on a CPU
 
 ### Evaluate pre-trained model
 ```bash
-python main.py train --comp_dir=w4c-core-stage-1 --model=resgru --weights="../models/best/resrnn-temperature.h5" --dataset=CTTH --variable=temperature
+python main.py evaluate --comp_dir=w4c-core-stage-1 --model=resgru --weights="../models/best/resrnn-temperature.h5" --dataset=CTTH --variable=temperature
 ```
 This example trains the ResGRU model for the _temperature_ variable, loading the pre-trained weights from the `--weights` file. You can change the model and the variable using the `--model`, `--weights`, `--dataset` and `--variable` arguments.
 
